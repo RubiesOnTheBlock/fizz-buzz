@@ -1,10 +1,10 @@
-# You have 50 candies. Every time you eat a candy, tell us that.
+
+# You have 20 candies. Every time you eat a candy, tell us that.
 # By coincidence, you discover that every 3rd candy is a red one, every 5th candy is a yellow one,
 # and every 15th candy is a green one. Remember to share this with us!
 # You can eat all your candies (not a recommended diet tho!).
 
-candies = 15
-
+candies = 20
 while candies > 0
   if candies % 15 == 0
     puts "I am eating a green candy. I have #{candies - 1} candies left."
